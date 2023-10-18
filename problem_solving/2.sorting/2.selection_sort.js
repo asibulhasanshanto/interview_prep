@@ -1,4 +1,4 @@
-const insertionSort = function (arr) {
+const selectionSort = function (arr) {
   for (var i = 0; i < arr.length; i++) {
     var max = -9999;
     var position = -1;
@@ -17,4 +17,4 @@ const insertionSort = function (arr) {
   return arr;
 };
 
-console.log(insertionSort([2, 4, 1, 8, 100, -10, 4, 5, 0, 10]));
+console.log(selectionSort([2, 4, 1, 8, 100, -10, 4, 5, 0, 10]));
