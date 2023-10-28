@@ -1,5 +1,5 @@
 const main = function () {
-  var x = fibo(6);
+  var x = fibo(30);
   console.log(x);
 };
 
