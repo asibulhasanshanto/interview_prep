@@ -39,3 +39,6 @@ function generatePrimes(number) {
 }
 
 generatePrimes(100000);
+
+
+// time complexity: O(nloglogn)
